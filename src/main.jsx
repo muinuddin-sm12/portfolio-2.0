@@ -13,7 +13,7 @@ const App = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false); // Set loading to false after a delay (2 seconds)
-    }, 3000);
+    }, 4000);
 
     return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []);

@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 svg{
-    background-color: #43003A;
+    background-color: #49003F;
     width: 100%;
     height: 100vh;
 }
 svg text {
     font-size: 3rem;
-    font-family: "Cream Beige", sans-serif;;
-    stroke-width: 3px;
+    font-family: "Kind Kids", sans-serif;;
+    stroke-width: 2px;
     fill: transparent;
     stroke: #fff;
-    letter-spacing: 3px;
-    animation: effect 4s linear;
+    letter-spacing: 4px;
+    animation: effect 3s linear;
 }
 @keyframes effect {
     0%{
